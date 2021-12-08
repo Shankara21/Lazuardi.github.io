@@ -1,0 +1,175 @@
+body {
+    background-image: url(/img/Background/bg.jpg);
+}
+
+/* Header */
+.header {
+    width: 81%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #FBE0C4;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.logo1 img {
+    width: 100px;
+}
+
+.logo2 img {
+    width: 100px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title {
+    color: #161E54;
+}
+
+
+.title ul {
+    display: flex;
+    list-style: none;
+}
+
+.title li {
+    padding: 10px;
+    padding-left: 120px;
+}
+
+.title a {
+    color: #193498;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #193498;
+    transition: .5s;
+
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.content{
+    width: 81%;
+    margin: auto;
+    background-color: #FF7777;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.title-content{
+    text-align: center;
+    background-color: #eb4f4f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+.desc{
+    padding: 10px;
+}
+.icon{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.icon img{
+    width:90px;
+    padding-right: 10px;
+}
+.content2{
+    width: 81%;
+    margin: auto;
+    background-color: #A2416B;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.text-icon{
+    color: #FFF6CD;
+}
+
+.content-hotel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hotel{
+    background-color: #b66789;
+    width: 45%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.nama-hotel{
+    color: #F5C6A5;
+}
+.hotel img{
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+iframe{
+    width: 100%;
+}
+.button{
+    text-align: center;
+}
+.footer {
+    
+    width:81%;
+    margin: auto;
+    background-color: #6e1e39;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    color: #F5C6A5;
+}
+
+@media screen and (max-width: 390px){
+    .header{
+        width: 100%;
+    }
+    .title h1{
+        font-size: 13pt;
+    }
+    .title li{
+        padding-left: 0;
+    }
+    .logo1 img{
+        width: 70px;
+    }
+    .logo2 img{
+        width: 70px;
+    }
+    .content{
+        width: 100%;
+    }
+    .content-hotel {
+        flex-direction: row;
+    }
+    .hotel{
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .content2 {
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer h3{
+        font-size: 13pt;
+    }
+}

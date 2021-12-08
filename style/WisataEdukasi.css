@@ -1,0 +1,176 @@
+body {
+    background-image: url(/img/Background/bg.jpg);
+}
+
+/* Header */
+.header {
+    width: 81%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #FBE0C4;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.logo1 img {
+    width: 100px;
+}
+
+.logo2 img {
+    width: 100px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title {
+    color: #161E54;
+}
+
+
+.title ul {
+    display: flex;
+    list-style: none;
+}
+
+.title li {
+    padding: 10px;
+    padding-left: 120px;
+}
+
+.title a {
+    color: #193498;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #193498;
+    transition: .5s;
+
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.intro {
+    width: 81%;
+    margin: auto;
+    background-color: #3DB2FF;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.intro-title{
+    text-align: center;
+    background-color: #1994e6;
+    padding: 10px;
+}
+.intro-desc{
+    padding: 10px;
+}
+.content2{
+    width: 81%;
+    margin: auto;
+    background-color: #FFB830;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.img img{
+    width: 100px;
+}
+.content-edukasi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.edukasi {
+    width: 45%;
+    margin: 10px;
+    background-color: #fdcb6d;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.edukasi img {
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+iframe{
+    width: 100%;
+}
+.footer {
+
+    width: 81%;
+    margin: auto;
+    background-color: #FF2442;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    color: #F5C6A5;
+}
+
+@media screen and (max-width: 390px) {
+    .header {
+        width: 100%;
+    }
+
+    .title h1 {
+        font-size: 13pt;
+    }
+
+    .title li {
+        padding-left: 26px;
+    }
+
+    .logo1 img {
+        width: 70px;
+    }
+
+    .logo2 img {
+        width: 70px;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .content-hotel {
+        flex-direction: row;
+    }
+
+    .edukasi {
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .content2 {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer h3 {
+        font-size: 13pt;
+    }
+}
+
+

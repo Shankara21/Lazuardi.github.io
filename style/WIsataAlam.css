@@ -1,0 +1,181 @@
+body {
+    background-image: url(/img/Background/bg.jpg);
+}
+
+/* Header */
+.header {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #FBE0C4;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.logo1 img {
+    width: 100px;
+}
+
+.logo2 img {
+    width: 100px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title {
+    color: #161E54;
+}
+
+
+.title ul {
+    display: flex;
+    list-style: none;
+}
+
+.title li {
+    padding: 10px;
+    padding-left: 120px;
+}
+
+.title a {
+    color: #193498;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #193498;
+    transition: .5s;
+
+}
+
+.link:hover::after {
+    width: 100%;
+}
+.intro{
+    width: 1100px;
+    margin: auto;
+    background-color: #C9D8B6;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.title-intro{
+    text-align: center;
+    background-color: #90a17a;
+    padding: 10px;
+}
+.title-text{
+    padding: 10px;
+}
+.content{
+    border-radius: 10px;
+    width: 1100px;
+    margin: auto;
+    background-color: #57837B;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.content-header{
+    display: flex;
+    align-items: center;
+}
+.img img{
+    padding: 10px;
+    width: 100px;
+}
+.judul-content{
+    
+    padding-left: 20px;
+}
+iframe{
+    width: 100%;
+}
+.content-alam{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.alam{
+    background-color: #7ba8a0;
+    width: 40%;
+    margin: 10px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+}
+.nama-alam{
+    color: #F1ECC3;
+}
+.alam img{
+    object-fit: cover;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footer {
+    width: 1100px;
+    margin: auto;
+    background-color: #515E63;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    color: #F1ECC3;
+}
+@media screen and (max-width: 390px) {
+    .header {
+        width: 100%;
+    }
+
+    .title h1 {
+        font-size: 13pt;
+    }
+
+    .title li {
+        padding-left: 13px;
+    }
+
+    .logo1 img {
+        width: 70px;
+    }
+
+    .logo2 img {
+        width: 70px;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .content-alam {
+        
+        flex-direction: row;
+    }
+
+    .alam {
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer h3 {
+        font-size: 13pt;
+    }
+}
